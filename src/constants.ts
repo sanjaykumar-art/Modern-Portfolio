@@ -89,6 +89,6 @@ export const VIBE_DATA = {
   status: "Building interactive experiences",
   learning: "Next.js 15 & Advanced LLM fine-tuning",
   challenge: "100 Days of Code",
-  streak: "42 Day Streak", // Yeh Hero section mein dikhega
+  streak: "42 Day Streak",
   location: "Based in Bhopal"
 };
