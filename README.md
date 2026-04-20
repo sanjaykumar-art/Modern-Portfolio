@@ -1,73 +1,33 @@
-# React + TypeScript + Vite
+# 🚀 Sanjay Kumar | Modern Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ek modern, high-performance personal portfolio jo **Bento Grid layout** aur **Glassmorphism** design principles par based hai. Yeh portfolio meri technical journey, projects, aur skills ko ek interactive digital experience ke roop mein showcase karta hai.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+Aap mera live portfolio yahan dekh sakte hain:  
+👉 **[Sanjay-Portfolio.vercel.app](https://modern-portfolio-pearl-beta.vercel.app/)** ---
 
-## React Compiler
+## ✨ Features
+- **New Gen UI/UX:** Bento Grid layout aur Obsidian dark theme ka use.
+- **Dynamic Hero Section:** Roles cycle effect (MERN Developer, Java Specialist, etc.).
+- **Interactive Projects:** Hover effects aur dynamic project cards.
+- **Bento Skills Grid:** Technical arsenal ka visual representation.
+- **Fully Responsive:** Har device (Mobile, Tablet, Desktop) par perfectly optimized.
+- **Smooth Animations:** Framer Motion ka use karke scroll-reveal aur micro-interactions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS (v4)
+- **Animations:** Framer Motion, Lucide React (Icons)
+- **Build Tool:** Vite
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
+```text
+src/
+├── components/     # UI Components (Hero, Navbar, BentoSkills, etc.)
+├── lib/            # Utility functions (cn helper)
+├── constants.ts    # Global data (Personal info, Skills, Projects)
+├── App.tsx         # Main application logic
+└── index.css       # Tailwind & Global styles
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
