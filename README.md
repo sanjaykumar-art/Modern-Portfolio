@@ -1,33 +1,49 @@
-# 🚀 Sanjay Kumar | Modern Personal Portfolio
+# 🚀 Sanjay Kumar | Modern Full-Stack Portfolio
 
-Ek modern, high-performance personal portfolio jo **Bento Grid layout** aur **Glassmorphism** design principles par based hai. Yeh portfolio meri technical journey, projects, aur skills ko ek interactive digital experience ke roop mein showcase karta hai.
+A high-performance, visually stunning personal portfolio built with **React.js**, **Tailwind CSS (v4)**, and **Framer Motion**. This project utilizes a **Bento Grid layout** and **Glassmorphism** design principles to showcase my technical journey, projects, and skills in an interactive digital format.
 
 ---
 
 ## 🌐 Live Demo
-Aap mera live portfolio yahan dekh sakte hain:  
-👉 **[Sanjay-Portfolio.vercel.app](https://modern-portfolio-pearl-beta.vercel.app/)** ---
+Experience the live portfolio here:  
+👉 **[View My Live Portfolio](https://modern-portfolio-pearl-beta.vercel.app/)**
 
-## ✨ Features
-- **New Gen UI/UX:** Bento Grid layout aur Obsidian dark theme ka use.
-- **Dynamic Hero Section:** Roles cycle effect (MERN Developer, Java Specialist, etc.).
-- **Interactive Projects:** Hover effects aur dynamic project cards.
-- **Bento Skills Grid:** Technical arsenal ka visual representation.
-- **Fully Responsive:** Har device (Mobile, Tablet, Desktop) par perfectly optimized.
-- **Smooth Animations:** Framer Motion ka use karke scroll-reveal aur micro-interactions.
+---
+
+## ✨ Key Features
+- **Modern UI/UX:** A sleek Bento Grid layout inspired by the "Obsidian" dark theme.
+- **Dynamic Hero Section:** Auto-cycling roles (Full Stack Developer, Java Developer, etc.) using Framer Motion.
+- **Interactive Tech Arsenal:** A categorized skills section displayed in a responsive Bento grid.
+- **Project Showreel:** Interactive cards featuring technical artifacts with hover effects and source links.
+- **Smooth Animations:** Integrated scroll-reveal effects and micro-interactions for a premium feel.
+- **Fully Responsive:** Optimized for a seamless experience across Mobile, Tablet, and Desktop devices.
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS (v4)
-- **Animations:** Framer Motion, Lucide React (Icons)
+- **Framework:** React 19
+- **Styling:** Tailwind CSS (v4)
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 - **Build Tool:** Vite
 - **Deployment:** Vercel
 
-## 📂 Folder Structure
+---
+
+## 📂 Project Structure
 ```text
 src/
-├── components/     # UI Components (Hero, Navbar, BentoSkills, etc.)
-├── lib/            # Utility functions (cn helper)
-├── constants.ts    # Global data (Personal info, Skills, Projects)
-├── App.tsx         # Main application logic
-└── index.css       # Tailwind & Global styles
+├── components/     # Modular UI sections (Hero, Navbar, BentoSkills, etc.)
+├── lib/            # Utility functions (Tailwind class merging)
+├── constants.ts    # Centralized data management (Personal info, Projects)
+├── App.tsx         # Main application logic and scroll progress
+└── index.css       # Global styles and Tailwind configuration
 
+## Connect With Me
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+- **Linkedin: Sanjay Kumar
+- **Github: @sanjaykumar-art
+- **Email: sanjaykushwaha24033@gmail.com
+
+---
+Developed by Sanjay Kumar
