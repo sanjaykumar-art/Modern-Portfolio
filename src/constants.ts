@@ -3,7 +3,7 @@ export const PERSONAL_INFO = {
   email: "sanjaykushwaha24033@gmail.com",
   phone: "+91 6392670339",
   github: "https://github.com/sanjaykumar-art",
-  linkedin: "https://linkedin.com/in/Sanjaykushwaha24",
+  linkedin: "https://linkedin.com/in/sanjaykumar639267",
   title: "Full Stack Developer",
   roles: ["Full Stack Developer", "Java Developer", "AI Enthusiast", "MERN Developer"],
   location: "Bhopal, India",
