@@ -38,6 +38,7 @@ src/
 ├── constants.ts    # Centralized data management (Personal info, Projects)
 ├── App.tsx         # Main application logic and scroll progress
 └── index.css       # Global styles and Tailwind configuration
+``` 
 
 ## Connect With Me
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
@@ -46,4 +47,4 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - **Email: sanjaykushwaha24033@gmail.com
 
 ---
-Developed by Sanjay Kumar
+Developed by Sanjay Kumar ❤️
